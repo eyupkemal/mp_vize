@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:local="clr-namespace:Eyup_kemal_karaoglu"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Eyup_kemal_karaoglu.MainPage"
+             Title="RadioButton Demos">
+
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                <TextCell Text="Hesapla Döndür"
+                          Detail="Buton İşlemleri (hesapla ve döndür)"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:BasicButtonCommandPage}" />
+
+       
+
+                <TextCell Text="Anket"
+                          Detail="RadioButton ve Checkbox işlemleri"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:BasicButtonClickPage}" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

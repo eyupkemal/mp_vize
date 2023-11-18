@@ -1,0 +1,83 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Eyup_kemal_karaoglu.BasicButtonClickPage"
+             Title="Anket">
+
+    <ContentPage.Content>
+        <Grid Margin="20,35,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.10*" />
+                <ColumnDefinition Width="0.40*" />
+                <ColumnDefinition Width="0.10*" />
+                <ColumnDefinition Width="0.40*" />
+            </Grid.ColumnDefinitions>
+
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" 
+                   Grid.ColumnSpan="4" 
+                   FontSize="Medium" FontAttributes="Bold" TextColor="Green"
+                   Text="                 Yazının Tipi Seçenekleri" />
+
+            <CheckBox Grid.Row="7" Grid.Column="0"  VerticalOptions="Center" x:Name="CheckBox_1" CheckedChanged="CheckBoxChanged_1"/>
+            <Label Grid.Row="7" Grid.Column="1"  VerticalOptions="Center" Text="italic" x:Name="Label_italic"/>
+            <CheckBox Grid.Row="7" Grid.Column="2"  VerticalOptions="Center" x:Name="CheckBox_2" CheckedChanged="CheckBoxChanged_2"/>
+            <Label Grid.Row="7" Grid.Column="3"  VerticalOptions="Center" Text="Strikethrough" x:Name="Strikethrough"/>
+
+            <CheckBox Grid.Row="8" Grid.Column="0"  VerticalOptions="Center" x:Name="CheckBox_3" CheckedChanged="CheckBoxChanged_3"/>
+            <Label Grid.Row="8" Grid.Column="1"  VerticalOptions="Center" Text="bold" x:Name="Label_bold"/>
+            <CheckBox Grid.Row="8" Grid.Column="2"  VerticalOptions="Center" x:Name="CheckBox_4" CheckedChanged="CheckBoxChanged_4"/>
+            <Label Grid.Row="8" Grid.Column="3"  VerticalOptions="Center" Text="underline" x:Name="Label_underline"/>
+
+            <Label x:Name="Label_BaslangicMetni" Grid.Row="9" Grid.ColumnSpan="4" Text=" " />
+
+            <Label Grid.Row="10" 
+                   Grid.ColumnSpan="4" 
+                   FontSize="Large" FontAttributes="Bold" TextColor="Green"
+                   Text="               Adınızı giriniz" />
+
+            <Entry Grid.Row="12" TextChanged="Entry_TextChanged"
+                   Grid.ColumnSpan="4" 
+                   x:Name="entry" Text=" " />
+            
+
+            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Grid.Row="15" Grid.ColumnSpan="4">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="men.jpg" WidthRequest="150" HeightRequest="150" VerticalOptions="Start">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnErkekImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="women.jpg" WidthRequest="150" HeightRequest="150" VerticalOptions="Start">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnKadinImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <Label 
+                x:Name="cinsiyetLabel" Text="Cinsiyet = Belirtilmedi" />
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

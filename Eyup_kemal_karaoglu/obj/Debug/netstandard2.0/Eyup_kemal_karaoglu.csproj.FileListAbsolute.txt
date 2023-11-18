@@ -1,0 +1,17 @@
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\bin\Debug\netstandard2.0\Eyup_kemal_karaoglu.deps.json
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\bin\Debug\netstandard2.0\Eyup_kemal_karaoglu.dll
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\bin\Debug\netstandard2.0\ref\Eyup_kemal_karaoglu.dll
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\bin\Debug\netstandard2.0\Eyup_kemal_karaoglu.pdb
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.csproj.AssemblyReference.cache
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\BasicButtonClickPage.xaml.g.cs
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\BasicButtonCommandPage.xaml.g.cs
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.AssemblyInfoInputs.cache
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.AssemblyInfo.cs
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.csproj.CoreCompileInputs.cache
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.dll
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\refint\Eyup_kemal_karaoglu.dll
+C:\Users\eyupk\source\repos\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\Eyup_kemal_karaoglu\obj\Debug\netstandard2.0\Eyup_kemal_karaoglu.pdb
